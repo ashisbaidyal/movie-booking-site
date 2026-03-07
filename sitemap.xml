@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://yourdomain.vercel.app/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://assets-in.bmscdn.com/discovery-catalog/events/et00478890-anhmpuxsbl-landscape.jpg</image:loc>
+      <image:title>Dhurandhar: The Revenge – Official Movie Banner</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.vercel.app/dhurandhar-the-revenge-booking</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.vercel.app/dhurandhar-the-revenge-showtimes</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://yourdomain.vercel.app/dhurandhar-the-revenge-ticket-price</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>

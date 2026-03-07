@@ -1,0 +1,33 @@
+{
+  "name": "Dhurandhar: The Revenge – Book Tickets",
+  "short_name": "Dhurandhar",
+  "description": "Book Dhurandhar The Revenge tickets online. Compare showtimes near you, check ticket prices and advance booking on BookMyShow, Paytm Movies & District.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060606",
+  "theme_color": "#c9a84c",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='22' fill='%230a0a0a'/><text y='145' x='96' text-anchor='middle' font-family='serif' font-size='148' font-weight='900' fill='%23c9a84c'>D</text><rect y='170' width='192' height='14' fill='%23c0392b'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='56' fill='%230a0a0a'/><text y='390' x='256' text-anchor='middle' font-family='serif' font-size='400' font-weight='900' fill='%23c9a84c'>D</text><rect y='455' width='512' height='36' fill='%23c0392b'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://assets-in.bmscdn.com/discovery-catalog/events/et00478890-anhmpuxsbl-landscape.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "label": "Dhurandhar: The Revenge hero banner"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

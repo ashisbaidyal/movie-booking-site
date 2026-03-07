@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block irrelevant bots from admin or draft pages (add paths here if needed)
+# Disallow: /admin/
+
+# Sitemap location — replace yourdomain with your actual Vercel/Netlify domain
+Sitemap: https://yourdomain.vercel.app/sitemap.xml
