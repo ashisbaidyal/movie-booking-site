@@ -197,6 +197,11 @@
     .cast-fb{position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:.4rem}
     .cast-fb .ini{font-family:'Cinzel',serif;font-size:2.4rem;font-weight:700;color:var(--gold);opacity:.4}
     .cast-fb.show{display:flex}
+    /* Styled placeholders - look intentional */
+    .cast-fb-styled{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem;height:100%;padding:1rem}
+    .ini-ring{width:72px;height:72px;border:1.5px solid rgba(201,168,76,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(201,168,76,.04)}
+    .ini-text{font-family:'Cinzel',serif;font-size:1.5rem;font-weight:700;color:var(--gold);opacity:.55}
+    .cast-role-tag{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(201,168,76,.35);text-align:center;margin-top:.2rem}
     .cast-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.78) 0%,transparent 55%)}
     .cast-info{padding:.75rem .75rem .82rem;background:rgba(0,0,0,.4);position:relative}
     .cast-info::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.2),transparent);transform:scaleX(0);transition:transform .35s}
@@ -449,8 +454,8 @@
   </div>
 </div>
 
-<!-- ══ AD ZONE 1 — Adsterra Native Banner ══ -->
-<div style="padding:.8rem clamp(1.5rem,6vw,6rem)" role="complementary" aria-label="Advertisement">
+<!-- ══ ADSTERRA NATIVE BANNER ══ -->
+<div style="padding:.8rem clamp(1.5rem,6vw,6rem);text-align:center" role="complementary" aria-label="Advertisement">
   <script async="async" data-cfasync="false" src="https://pl28875700.effectivegatecpm.com/b080e1ccf4d671be418db12af00d43ca/invoke.js"></script>
   <div id="container-b080e1ccf4d671be418db12af00d43ca"></div>
 </div>
@@ -505,7 +510,7 @@
     <!-- 1. Ranveer Singh -->
     <article class="cast-card" style="animation-delay:.05s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ranveer_Singh_at_Filmfare_Glamour_%26_Style_Awards_2019_%28cropped%29.jpg/400px-Ranveer_Singh_at_Filmfare_Glamour_%26_Style_Awards_2019_%28cropped%29.jpg" alt="Ranveer Singh" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ranveer_Singh_at_Filmfare_Glamour_%26_Style_Awards_2019_%28cropped%29.jpg/400px-Ranveer_Singh_at_Filmfare_Glamour_%26_Style_Awards_2019_%28cropped%29.jpg" alt="Ranveer Singh" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">RS</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Bollywood Hungama / CC BY 3.0</span>
@@ -516,7 +521,7 @@
     <!-- 2. Sara Arjun -->
     <article class="cast-card" style="animation-delay:.1s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sara_Arjun_at_an_event.jpg/400px-Sara_Arjun_at_an_event.jpg" alt="Sara Arjun" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sara_Arjun_at_an_event.jpg/400px-Sara_Arjun_at_an_event.jpg" alt="Sara Arjun" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">SA</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Bollywood Hungama / CC BY 3.0</span>
@@ -527,7 +532,7 @@
     <!-- 3. Arjun Rampal -->
     <article class="cast-card" style="animation-delay:.15s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Arjun_Rampal_at_D-Day_trailer_launch_%28cropped%29.jpg/400px-Arjun_Rampal_at_D-Day_trailer_launch_%28cropped%29.jpg" alt="Arjun Rampal" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Arjun_Rampal_at_D-Day_trailer_launch_%28cropped%29.jpg/400px-Arjun_Rampal_at_D-Day_trailer_launch_%28cropped%29.jpg" alt="Arjun Rampal" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">AR</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Bollywood Hungama / CC BY 3.0</span>
@@ -538,7 +543,7 @@
     <!-- 4. Sanjay Dutt -->
     <article class="cast-card" style="animation-delay:.2s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sanjay_Dutt_at_the_Umang_2020_Mumbai_Police_Show_%28cropped%29.jpg/400px-Sanjay_Dutt_at_the_Umang_2020_Mumbai_Police_Show_%28cropped%29.jpg" alt="Sanjay Dutt" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sanjay_Dutt_at_the_Umang_2020_Mumbai_Police_Show_%28cropped%29.jpg/400px-Sanjay_Dutt_at_the_Umang_2020_Mumbai_Police_Show_%28cropped%29.jpg" alt="Sanjay Dutt" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">SD</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Bollywood Hungama / CC BY 3.0</span>
@@ -549,7 +554,7 @@
     <!-- 5. Saumya Tandon -->
     <article class="cast-card" style="animation-delay:.25s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap fb-saumya">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Saumya_Tandon.jpg/400px-Saumya_Tandon.jpg" alt="Saumya Tandon" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Saumya_Tandon_at_Elle_Beauty_Awards_2016_%2814%29_%28cropped%29.jpg/400px-Saumya_Tandon_at_Elle_Beauty_Awards_2016_%2814%29_%28cropped%29.jpg" alt="Saumya Tandon" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true" style="background:linear-gradient(160deg,#0d0a18,#180d1a)"><span class="ini">ST</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
@@ -559,7 +564,7 @@
     <!-- 6. Rakesh Bedi -->
     <article class="cast-card" style="animation-delay:.3s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rakesh_Bedi_at_the_launch_of_film_Maximum_%28cropped%29.jpg/400px-Rakesh_Bedi_at_the_launch_of_film_Maximum_%28cropped%29.jpg" alt="Rakesh Bedi" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rakesh_Bedi_at_the_launch_of_film_Maximum_%28cropped%29.jpg/400px-Rakesh_Bedi_at_the_launch_of_film_Maximum_%28cropped%29.jpg" alt="Rakesh Bedi" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">RB</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Bollywood Hungama / CC BY 3.0</span>
@@ -570,7 +575,7 @@
     <!-- 7. R. Madhavan -->
     <article class="cast-card" style="animation-delay:.35s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/R_Madhavan_At_Vikram_Vedha_Press_Conference_%28cropped%29.jpg/400px-R_Madhavan_At_Vikram_Vedha_Press_Conference_%28cropped%29.jpg" alt="R Madhavan" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/R_Madhavan_At_Vikram_Vedha_Press_Conference_%28cropped%29.jpg/400px-R_Madhavan_At_Vikram_Vedha_Press_Conference_%28cropped%29.jpg" alt="R Madhavan" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.classList.add('show')"/>
         <div class="cast-fb" aria-hidden="true"><span class="ini">RM</span></div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
         <span class="img-credit">© Wikimedia / CC BY-SA 4.0</span>
@@ -581,7 +586,14 @@
     <!-- 8. Danish Pandor -->
     <article class="cast-card" style="animation-delay:.4s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap fb-danish" style="background:linear-gradient(160deg,#081818,#04100c)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#081818,#04100c)"><span class="ini">DP</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#081818,#04100c);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#3a8aaa" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#3a8aaa" opacity=".14" stroke="#3a8aaa" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#3a8aaa" opacity=".1" stroke="#3a8aaa" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#3a8aaa;opacity:.68;letter-spacing:.12em">DP</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Danish Pandor</p><p class="cast-ch">Uzair Baloch</p><p class="cast-ro">Pakistani TV Actor</p></div>
@@ -590,7 +602,14 @@
     <!-- 9. Manav Gohil -->
     <article class="cast-card" style="animation-delay:.45s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#0a0f1a,#050a14)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#0a0f1a,#050a14)"><span class="ini">MG</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#0a0f1a,#050a14);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#6a7fc0" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#6a7fc0" opacity=".14" stroke="#6a7fc0" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#6a7fc0" opacity=".1" stroke="#6a7fc0" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#6a7fc0;opacity:.68;letter-spacing:.12em">MG</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Manav Gohil</p><p class="cast-ch">Sushant Bansal</p><p class="cast-ro">Supporting Role</p></div>
@@ -599,7 +618,14 @@
     <!-- 10. Gaurav Gera -->
     <article class="cast-card" style="animation-delay:.5s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#1a0a06,#120804)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#1a0a06,#120804)"><span class="ini">GG</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#1a0a06,#120804);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#c08030" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#c08030" opacity=".14" stroke="#c08030" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#c08030" opacity=".1" stroke="#c08030" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#c08030;opacity:.68;letter-spacing:.12em">GG</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Gaurav Gera</p><p class="cast-ch">Mohammad Aalam</p><p class="cast-ro">Supporting Role</p></div>
@@ -608,7 +634,14 @@
     <!-- 11. Bhasha Sumbli -->
     <article class="cast-card" style="animation-delay:.55s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#080818,#0a0514)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#080818,#0a0514)"><span class="ini">BS</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#080818,#0a0514);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#9070c0" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#9070c0" opacity=".14" stroke="#9070c0" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#9070c0" opacity=".1" stroke="#9070c0" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#9070c0;opacity:.68;letter-spacing:.12em">BS</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Bhasha Sumbli</p><p class="cast-ch">Veena</p><p class="cast-ro">Supporting Role</p></div>
@@ -617,7 +650,14 @@
     <!-- 12. Rajendranath Zutshi -->
     <article class="cast-card" style="animation-delay:.6s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#0f0a00,#1a1000)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#0f0a00,#1a1000)"><span class="ini">RZ</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#0f0a00,#1a1000);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#b88a20" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#b88a20" opacity=".14" stroke="#b88a20" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#b88a20" opacity=".1" stroke="#b88a20" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#b88a20;opacity:.68;letter-spacing:.12em">RZ</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Rajendranath Zutshi</p><p class="cast-ch">General Shamsheer</p><p class="cast-ro">Senior Military Role</p></div>
@@ -626,7 +666,14 @@
     <!-- 13. Akash Khurana -->
     <article class="cast-card" style="animation-delay:.65s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#050a10,#091018)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#050a10,#091018)"><span class="ini">AK</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#050a10,#091018);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#3060a0" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#3060a0" opacity=".14" stroke="#3060a0" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#3060a0" opacity=".1" stroke="#3060a0" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#3060a0;opacity:.68;letter-spacing:.12em">AK</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Akash Khurana</p><p class="cast-ch">Devavrat Kapoor</p><p class="cast-ro">Senior Supporting Role</p></div>
@@ -635,7 +682,14 @@
     <!-- 14. Gitikka Ganju Dhar -->
     <article class="cast-card" style="animation-delay:.7s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#140818,#0a041a)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#140818,#0a041a)"><span class="ini">GD</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#140818,#0a041a);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#a050b0" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#a050b0" opacity=".14" stroke="#a050b0" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#a050b0" opacity=".1" stroke="#a050b0" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#a050b0;opacity:.68;letter-spacing:.12em">GD</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Gitikka Ganju Dhar</p><p class="cast-ch">Shabnam</p><p class="cast-ro">Supporting Role</p></div>
@@ -644,7 +698,14 @@
     <!-- 15. Ashwin Dhar -->
     <article class="cast-card" style="animation-delay:.75s" itemprop="actor" itemscope itemtype="https://schema.org/Person">
       <div class="cast-img-wrap" style="background:linear-gradient(160deg,#041010,#06180c)">
-        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#041010,#06180c)"><span class="ini">AD</span></div>
+        <div class="cast-fb show" aria-hidden="true" style="background:linear-gradient(160deg,#041010,#06180c);flex-direction:column;gap:.5rem;padding:1rem">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="#30a090" stroke-width="1.2" opacity=".4"/>
+            <circle cx="30" cy="23" r="10" fill="#30a090" opacity=".14" stroke="#30a090" stroke-width="1" opacity=".32"/>
+            <path d="M10 54c0-11 9-18 20-18s20 7 20 18" fill="#30a090" opacity=".1" stroke="#30a090" stroke-width="1" opacity=".22"/>
+          </svg>
+          <span style="font-family:'Cinzel',serif;font-size:1.05rem;font-weight:700;color:#30a090;opacity:.68;letter-spacing:.12em">AD</span>
+        </div>
         <div class="cast-ov"></div><div class="cast-glow"></div><div class="cast-shine"></div>
       </div>
       <div class="cast-info"><p class="cast-nm" itemprop="name">Ashwin Dhar</p><p class="cast-ch">Arshad Pappu</p><p class="cast-ro">Supporting Role</p></div>
@@ -682,11 +743,10 @@
   </div>
 </div>
 
-<!-- ══ AD ZONE 2 — Adsterra Native Banner ══ -->
+<!-- ══ ADSTERRA AD ZONE 2 (mid-page) ══ -->
 <div style="padding:.8rem clamp(1.5rem,6vw,6rem);display:flex;justify-content:center" role="complementary" aria-label="Advertisement">
-  <div style="max-width:400px;width:100%">
-    <script async="async" data-cfasync="false" src="https://pl28875700.effectivegatecpm.com/b080e1ccf4d671be418db12af00d43ca/invoke.js"></script>
-    <div id="container-b080e1ccf4d671be418db12af00d43ca2"></div>
+  <div style="max-width:400px;width:100%;min-height:60px;background:rgba(255,255,255,.012);border:1px dashed rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center">
+    <div id="container-b080e1ccf4d671be418db12af00d43ca-mid"></div>
   </div>
 </div>
 
